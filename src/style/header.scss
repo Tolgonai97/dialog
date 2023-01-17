@@ -1,0 +1,37 @@
+.header{
+  box-shadow: 0 5px 20px rgba(28, 28, 28, 0.1);
+  background: #ffffff;
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 0 ;
+    border-bottom: 1px solid #DEDEFF50;
+  }
+  &__social{
+    display: flex;
+    column-gap: 20px;
+  }
+  &__social-link:hover{
+    svg{
+      path{
+        fill: #E6514A;
+      }
+    }
+  }
+  &__phones{
+    display: flex;
+    column-gap: 30px;
+    &-link{
+      font-family: 'Roboto', sans-serif;
+      font-weight: 900;
+      font-size: 17px;
+      color: #23283B;
+      display: flex;
+      align-items: flex-end;
+      column-gap: 6px;
+    }
+  }
+}
+
+
+
